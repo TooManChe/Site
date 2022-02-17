@@ -1,0 +1,31 @@
+body{
+background-color: black;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none; 
+  color: white;
+ }
+ a:hover {
+ /* text-decoration: bold; */
+ font-weight: bold;
+}
+
+.topbar{
+  display: flex;
+}
+
+.icon_main_page{
+  width: 70px;
+}
+
+.main_block{
+  color: white;
+  
+}
+
+.main_logo{
+  width: 1000px;
+}
