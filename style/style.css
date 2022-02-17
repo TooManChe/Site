@@ -28,14 +28,20 @@ a {
   font-size: 17px;
 }
 
+.home{
+  margin-right: auto;
+  text-align: center;
+}
 
-.topbar_left{
-  
-  
+.icon_main_position{
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .icon_main_page{
-  width: 70px;
+  width: 300px;
+
 }
 
 .main_block{
@@ -45,4 +51,12 @@ a {
 
 .main_logo{
   width: 1000px;
+}
+
+.link_board{
+  display: flex;
+}
+
+.link_board img {
+  width: 33%;
 }
