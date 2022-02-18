@@ -40,7 +40,7 @@ a {
 }
 
 .icon_main_page{
-  width: 300px;
+  width: 500px;
 
 }
 
@@ -57,6 +57,29 @@ a {
   display: flex;
 }
 
+.food{
+  margin-left: auto;
+  margin-right: 2.5%;
+}
+
+.alco{
+  margin-left: 2.5%;
+  margin-right: auto;
+}
+
+
 .link_board img {
   width: 33%;
+  margin-bottom: 50px;
+}
+
+.link_board{
+  
+  margin-left: auto;
+  margin-right: auto
+}
+
+.social{
+  display: block;
+   text-align: center;
 }
