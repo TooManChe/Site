@@ -78,7 +78,7 @@ a {
 
 .link_board img {
   width: 45%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 
@@ -86,5 +86,5 @@ a {
 .social{
   display: block;
    text-align: center;
-   font-size: 27px;
+   font-size: 20px;
 }
