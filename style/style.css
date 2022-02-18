@@ -66,18 +66,22 @@ a {
 }
 
 .food{
+  display: block;
+  align-items: center;
   margin-left: auto;
-  margin-right: 2.5%;
+  margin-right: auto;
 }
 
 .alco{
-  margin-left: 2.5%;
+  display: block;
+  align-items: center;
+  margin-left: auto;
   margin-right: auto;
 }
 
 
 .link_board img {
-  width: 45%;
+  width: 95%;
   margin-bottom: 20px;
 }
 

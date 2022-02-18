@@ -7,9 +7,12 @@
 
   <title>TooMan</title>
 
+  <link rel="stylesheet" href="dist/css/lightbox.css">i
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+ 
 
   <!-- Style css -->
   <link rel="stylesheet" href="style/style.css">
@@ -41,13 +44,18 @@
   <div class="link_board">
 
     
-    <img class="food" src="image/Menu/food.jpg" alt="Страви">
-    <img class="alco" src="image/Menu/alco.jpg" alt="Напої">
+    <a class="food" href="image/Menu/food.jpg"  data-lightbox="test"> <img class="food" src="image/Menu/food.jpg" alt="Страви"></a>
+    <a class="alco" href="image/Menu/food.jpg" data-lightbox="test"> <img class="alco" src="image/Menu/alco.jpg" alt="Напої"></a>
+
+
+    <!-- <img class="food" src="image/Menu/food.jpg" alt="Страви">
+    <img class="alco" src="image/Menu/alco.jpg" alt="Напої"> -->
 
     <!-- <img class="main_logo" src="icon/menu.png" alt="Menu">
     <img class="main_logo" src="icon/shop.png" alt="Hookah Shop">
     <img class="main_logo" src="icon/about.png" alt="Contact"> -->
-
+    
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
   </div>
   
   <div>
