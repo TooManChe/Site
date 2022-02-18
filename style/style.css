@@ -34,13 +34,18 @@ a {
 }
 
 .icon_main_position{
+  display: block;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
 }
 
 .icon_main_page{
-  width: 500px;
+  display: block;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 
 }
 
@@ -55,6 +60,9 @@ a {
 
 .link_board{
   display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .food{
@@ -69,15 +77,11 @@ a {
 
 
 .link_board img {
-  width: 33%;
+  width: 40%;
   margin-bottom: 50px;
 }
 
-.link_board{
-  
-  margin-left: auto;
-  margin-right: auto
-}
+
 
 .social{
   display: block;
