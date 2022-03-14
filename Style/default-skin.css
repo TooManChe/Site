@@ -458,7 +458,8 @@ a.pswp__share--download:hover {
 
  
     
-    a {
+  .box_center a {
+      
       text-decoration: none; 
       color: white;
      }
@@ -476,12 +477,11 @@ a.pswp__share--download:hover {
     
     .box_center{
       width: 70%;
-      margin-left: 50%;
+      margin-left:25%;
     }
     
     .box_center img{
       display: inline-block;
-      transform: translateX(-50%);
       }
     
  
@@ -495,27 +495,8 @@ a.pswp__share--download:hover {
     
     }
     
-    .main_block{
-      color: white;
-      
-    }
+   
     
-    .main_logo{
-      width: 1000px;
-    }
-    
-    .link_board{
-      display: flex;
-      align-items: center;
-      margin-right: auto;
-      margin-left: auto;
-    }
-  
-    
-    .link_board img {
-      width: 95%;
-      margin-bottom: 20px;
-    }
     
     
     
