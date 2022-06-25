@@ -733,20 +733,36 @@ color: #999999;
      
 
     #button_in{
-      margin-right: 20%;
-      margin-left: 20%;
+    
     }
 
     .tabcontent {
-        background-color: #E6E6E6;
+        background-color: #2e2e2e;
+        -moz-border-radius-topleft: 15vw; 
+
         margin-right: 20%;
         margin-left: 20%;
       }
+
+      .tabs__content{
+        width: 95%;
+      }
   
-     .tabs {
-      
+     .tabs__nav{
+      margin-left: 10vw;
      }
       
+
+     .tabs__btn_active , .tabs__btn{
+      margin-top: 3vh;
+      font-size: 30px;
+     }
+
+     .tabs__pane_show{
+
+      margin-top: 5vw;
+     }
+
      .tab button.active {
   
       width: auto;
@@ -803,6 +819,7 @@ color: #999999;
       margin-right: 0%;
       margin-left: 0%;
       margin: 5vw;
+      margin-top: 0px;
         }
   
      .bar_img button{
@@ -816,13 +833,79 @@ color: #999999;
       font-size: calc(4.9vw - 30%);
       line-height: 22px;
       letter-spacing: 0.32px;
-      color: #FFFFFF;
+      color: #fff;
     }
 
 #Tokyo{
   margin-right: 20%;
   margin-left: 20%;
 }
+
+.cock, #shot_in{
+  width: 100%;    
+
+}
   
+
+#cock_bl h3{
+  margin-left: 2vw;
+  font-size: 3vw;
+}
+
+#cock_bl p{
+  margin-left: 2vw;
+  font-size: 3vw;
+}
+
+#cock_bl h4{
+  font-size: 3vw;
+  margin-left: 2vw;
+
+}
+
+#cock_bl img{
+
+  width:20vw ;
+  height: 20vw;
+}
+
+#tequila{
+  margin-left: 2vw;
+  transform: translateY(-5.5vw);
+  display: table-cell;
+  vertical-align: middle ;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/tequila.jpg);
+  border-radius: 15px;
+  background-size: 105%;
+  background-position: 45% 16%;
+  border-radius: 10%;
+  line-height: 5vw;
+}
+
+#whiskey{
+  margin-left: 2vw;
+  transform: translateY(-5.5vw);
+  display: table-cell;
+  vertical-align: middle ;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/whiskey.png);
+  border-radius: 15px;
+  background-size: 100%;
+  background-position: 45% 6%;
+  border-radius: 10%;
+  line-height: 5vw;
+}
+
+#sparkling{
+  margin-left: 2vw;
+  transform: translateY(-5.5vw);
+  display: table-cell;
+  vertical-align: middle ;
+  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/sparkling.png);
+  border-radius: 15px;
+  background-size: 120%;
+  background-position: 45% 16%;
+  border-radius: 10%;
+  line-height: 5vw;
+}
   }
 
