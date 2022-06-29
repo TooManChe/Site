@@ -778,8 +778,10 @@ color: #999999;
         font-size: 10vw;
         /* identical to box height */
         letter-spacing: 0.32px;
-        color: #fff;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(100.7deg, #ffffff 0%, rgb(255, 255, 255, 0) 206.33%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
       
       #Tokyo h2{
@@ -1022,7 +1024,9 @@ color: #999999;
       font-size: 6vw;
       /* identical to box height */
       letter-spacing: 0.32px;
-      color: #fff;
+      background: linear-gradient(100.7deg, #ffffff 0%, rgb(255, 255, 255, 0) 206.33%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     
