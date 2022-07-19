@@ -794,6 +794,7 @@ document.getElementById("defaultOpen").click();
 
 function menuedit(){
   document.getElementById("defaultOpen").click();
+  document.getElementById("defaultFood").click();
 }
 
 //--Tab1--//
