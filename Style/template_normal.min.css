@@ -276,7 +276,7 @@ a{
 
 
 
-.top p {
+.top p,a {
 padding-left: 28px;
 margin-top: 22px;
 margin-bottom: 30px;
@@ -330,6 +330,16 @@ color:#ffffff;
   color: #ffff;
   font-weight: 400;
   font-size: 7vw;
+}
+
+.comp_d{
+  margin-top: 6vw;
+  margin-left: 37vw;
+  position	: absolute;
+  width: fit-content;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 4vw;
 }
 
 
@@ -865,7 +875,10 @@ color: #999999;
 
   @media (min-width: 499px) {
 
-     
+     .top{
+      margin-right: 20%;
+      margin-left: 20%;
+     }
 
     #button_in{
     
@@ -875,8 +888,7 @@ color: #999999;
         background-color: #2e2e2e;
         -moz-border-radius-topleft: 15vw; 
 
-        margin-right: 20%;
-        margin-left: 20%;
+       
       }
 
       .tabs__content{
@@ -889,6 +901,11 @@ color: #999999;
       
 
      .tabs__btn_active , .tabs__btn{
+      margin-top: 3vh;
+      font-size: 30px;
+     }
+
+     .btn_h{
       margin-top: 3vh;
       font-size: 30px;
      }
@@ -972,8 +989,7 @@ color: #999999;
     }
 
 #Tokyo{
-  margin-right: 20%;
-  margin-left: 20%;
+
 }
 
 .cock, #shot_in{
@@ -1120,6 +1136,21 @@ color: #999999;
       color: #ffff;
       font-weight: 400;
       font-size: 7vw;
+    }
+
+    .comp_d{
+      margin-top: 6vw;
+      margin-left: 18vw;
+      position	: absolute;
+      width: fit-content;
+      color: #ffff;
+      font-weight: 400;
+      font-size: 3vw;
+    }
+
+    #sec1{
+
+      margin: auto 20%;
     }
 
   }

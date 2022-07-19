@@ -35,7 +35,7 @@
     
 
 <div class="top">
-  <p>Меню</p>
+  <a  onmousedown="viewDiv_all()" onclick="menuedit()" href="">Меню</a>
   
   <div class="language">
     <a href="">ENG</a>
@@ -43,12 +43,12 @@
 
   </div>
 
-  <section >
+  <section id="sec1" >
 
     <!-- Tab links -->
 <div class="nav-scroller">
   <div class="tab nav-scroller__items dragscroll">
-  <button class="tablinks nav-scroller__item" onclick="openCity(event, 'London') " id="defaultOpen" onmousedown="viewDiv_all()">Основне меню</button>
+  <button class="tablinks nav-scroller__item" onclick="openCity(event, 'London')" id="defaultOpen" onmousedown="viewDiv_all()">Основне меню</button>
   <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Paris')">Алкогольна карта</button>
   <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Tokyo')" onmousedown="viewDiv_all()">Кальяни</button>
   </div>
@@ -921,114 +921,190 @@
             <div  class="tabs__pane" id="content-5">
 
               <section >
+    
+    <div class="cock">
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Bumble Bee</h3>
-                      <p>300 мл. (еспресо, сік)</p>
-                    </div>
-                    <div class="price_d">
-                      <p >50₴</p>
-                    </div>
-                  </div>
-                </div>
+      <div id="cock_bl">
+        <span onclick="info_f('Bumble')" class="comp_d">ⓘ</span>
+        <img onclick="info_f('Bumble')" src="/Image/cocktails/ba/bumble.jpg" alt="">
+        <h3>Bumble Bee</h3>
+        <p>300 мл</p>
+        <h4>50₴</h4>
+         <!-- The Modal -->
+         <div id="Bumble_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Bumble">&times;</span>
+            <h3>Bumble Bee</h3>
+            <p><b>Склад:</b><br><br>•Еспресо;<br>•Сік;</p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="cock_bl">
+        <span onclick="info_f('Tooman')" class="comp_d">ⓘ</span>
+        <img onclick="info_f('Tooman')" src="/Image/cocktails/ba/tooman_ba.png" alt="">
+        <h3>Tooman</h3>
+        <p>300 мл</p>
+        <h4>70₴</h4>
+        <!-- The Modal -->
+        <div id="Tooman_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Tooman">&times;</span>
+            <h3>Tooman</h3>
+            <p><b>Склад:</b><br><br>•Cпрайт;<br>•Cік;<br>•Сироп;</p>
+          </div>
+        </div>
+        </div>
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Tooman</h3>
-                      <p>300 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >70₴</p>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <div class="cock">
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Espresso Tonic</h3>
-                      <p>250 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >40₴</p>
-                    </div>
-                  </div>
-                </div>
+        <div id="cock_bl">
+          <span onclick="info_f('es_to')" class="comp_d">ⓘ</span>
+          <img onclick="info_f('es_to')" src="/Image/cocktails/ba/espresso_tonic.jpg" alt="">
+          <h3>Espresso Tonic</h3>
+          <p>250 мл</p>
+          <h4>40₴</h4>
+           <!-- The Modal -->
+        <div id="es_to_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_es_to">&times;</span>
+            <h3>Espresso Tonic</h3>
+            <p><b>Склад:</b><br><br>•Еспресо;<br>•Швепс;</p>
+          </div>
+        </div>
+        </div>
+    
+        <div id="cock_bl">
+          <span onclick="info_f('Mojito_ba')" class="comp_d">ⓘ</span>
+          <img onclick="info_f('Mojito_ba')" src="/Image/cocktails/ba/mojito.jpg" alt="">
+          <h3>Mojito</h3>
+          <p>250 мл</p>
+          <h4>70₴</h4>
+           <!-- The Modal -->
+        <div id="Mojito_ba_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Mojito_ba">&times;</span>
+            <h3>Mojito</h3>
+            <p><b>Склад:</b><br><br>•Спрайт;<br>•Сироп;</p>
+          </div>
+        </div>
+          </div>
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Mojito</h3>
-                      <p>250 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >70₴</p>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <div class="cock">
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Pina Colada</h3>
-                      <p>190 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >60₴</p>
-                    </div>
-                  </div>
-                </div>
+          <div id="cock_bl">
+            <span onclick="info_f('pi_co_ba')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('pi_co_ba')" src="/Image/cocktails/ba/Pina Colada.png" alt="">
+            <h3>Pina Colada</h3>
+            <p>190 мл</p>
+            <h4>60₴</h4>
+             <!-- The Modal -->
+        <div id="pi_co_ba_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_pi_co_ba">&times;</span>
+            <h3>Pina Colada</h3>
+            <p><b>Склад:</b><br><br>•Сік;<br>•Вершки;<br>•Сироп;</p>
+          </div>
+        </div>
+          </div>
+  
+      
+          <div id="cock_bl">
+            <span onclick="info_f('Atlanta')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Atlanta')" src="/Image/cocktails/ba/atlanta.jpg" alt="">
+            <h3>Atlanta</h3>
+            <p>200 мл</p>
+            <h4>60₴</h4>
+             <!-- The Modal -->
+        <div id="Atlanta_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Atlanta">&times;</span>
+            <h3>Atlanta</h3>
+            <p><b>Склад:</b><br><br>•Сік ;<br>•Кола;</p>
+          </div>
+        </div>
+            </div>
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Atlanta</h3>
-                      <p>200 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >60₴</p>
-                    </div>
-                  </div>
-                </div>
+          </div>
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Breeze of the Sea</h3>
-                      <p>200 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >60₴</p>
-                    </div>
-                  </div>
-                </div>
+          <div class="cock">
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Cinderella</h3>
-                      <p>250 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >60₴</p>
-                    </div>
-                  </div>
-                </div>
+            <div id="cock_bl">
+              <span onclick="info_f('Cinderella')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('Cinderella')" src="/Image/cocktails/ba/cinderella.jpg" alt="">
+              <h3>Cinderella</h3>
+              <p>250 мл</p>
+              <h4>60₴</h4>
+               <!-- The Modal -->
+          <div id="Cinderella_Modal" class="modal">
+   
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close_Cinderella">&times;</span>
+              <h3>Cinderella</h3>
+              <p><b>Склад:</b><br><br>•Сік;<br>•Швепс;</p>
+            </div>
+          </div>
+            </div>
+    
+        
+            <div id="cock_bl">
+              <span onclick="info_f('mi_sh')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('mi_sh')" src="/Image/cocktails/ba/milk shake.jpg" alt="">
+              <h3>Milk Shake</h3>
+              <p>280 мл</p>
+              <h4>70₴</h4>
+               <!-- The Modal -->
+          <div id="mi_sh_Modal" class="modal">
+   
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close_mi_sh">&times;</span>
+              <h3>Milk Shake</h3>
+              <p><b>Смаки:</b><br><br>•Класичний;<br>•Банан;<br>•Шоколад;<br>•Персик;<br>•Бабл-гам;<br>•Малина;<br>•Диня;<br>•Карамель;<br>•Гренадин;<br>•Маракуя;<br>•Кокос;<br>•Полуниця;</p>
+            </div>
+          </div>
+              </div>
+  
+            </div>
 
-                <div class="block_d">
-                  <div class="block_in">
-                    <div class="name_d">
-                      <h3 >Milk Shake</h3>
-                      <p>280 мл.</p>
-                    </div>
-                    <div class="price_d">
-                      <p >70₴</p>
-                    </div>
-                  </div>
-                </div>
+          <div class="cock">
+
+            <div id="cock_bl">
+              <span onclick="info_f('be_se')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('be_se')" src="/Image/cocktails/ba/breeze of the sea.jpg" alt="">
+              <h3>Breeze of the Sea</h3>
+              <p>200 мл</p>
+              <h4>60₴</h4>
+               <!-- The Modal -->
+        <div id="be_se_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_be_se">&times;</span>
+            <h3>Breeze of the Sea</h3>
+            <p><b>Склад:</b><br><br>•Cік;<br>•Морс;</p>
+          </div>
+        </div>
+            </div>
+
+              <div style="width:45% ;"></div>
+
+          </div>
 
               </section>
               
@@ -1693,170 +1769,390 @@
         <div class="cock">
       
           <div id="cock_bl">
-            <img src="/Image/cocktails/Tooman.png" alt="">
+            <span onclick="info_f('Tooman')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Tooman')" src="/Image/cocktails/Tooman.png" alt="">
             <h3>Tooman</h3>
             <p>250 мл</p>
             <h4>160₴</h4>
+             <!-- The Modal -->
+         <div id="Tooman_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Tooman">&times;</span>
+            <h3>Tooman</h3>
+            <p><b>Склад:</b><br><br>•Білий ром;<br>•Кокосовий лікер;<br>•Вершки;<br>•Сік;<br>•Сироп;</p>
+          </div>
+        </div>
           </div>
       
           <div id="cock_bl">
-            <img src="/Image/cocktails/instagram.png" alt="">
+            <span onclick="info_f('Instagram')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Instagram')" src="/Image/cocktails/instagram.png" alt="">
             <h3>Instagram</h3>
             <p>250 мл</p>
             <h4>120₴</h4>
+             <!-- The Modal -->
+         <div id="Instagram_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Instagram">&times;</span>
+            <h3>Instagram</h3>
+            <p><b>Склад:</b><br><br>•Джин;<br>•Сік;<br>•Спрайт;<br>•Сироп;</p>
+          </div>
+        </div>
             </div>
 
             </div>
             <div class="cock">
 
             <div id="cock_bl">
-              <img src="/Image/cocktails/Royal Lemonade.png" alt="">
+              <span onclick="info_f('Royal')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('Royal')" src="/Image/cocktails/Royal Lemonade.png" alt="">
               <h3>Royal Lemonade</h3>
               <p>170 мл</p>
               <h4>120₴</h4>
+               <!-- The Modal -->
+         <div id="Royal_Modal" class="modal">
+ 
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close_Royal">&times;</span>
+            <h3>Royal</h3>
+            <p><b>Склад:</b><br><br>•Текіла срібна;<br>•Джин;<br>•Білий ром;<br>•Горілка;<br>•Апельсиновий лікер;<br>•Єгермейстер;<br>•Спрайт;<br>•Сироп;</p>
+          </div>
+        </div>
             </div>
         
             <div id="cock_bl">
-              <img src="/Image/cocktails/Aperol Spritz.png" alt="">
+              <span onclick="info_f('ap_sp')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('ap_sp')" src="/Image/cocktails/Aperol Spritz.png" alt="">
               <h3>Aperol Spritz</h3>
               <p>250 мл</p>
               <h4>120₴</h4>
+               <!-- The Modal -->
+                <div id="ap_sp_Modal" class="modal">
+        
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close_ap_sp">&times;</span>
+                    <h3>Aperol Spritz</h3>
+                    <p><b>Склад:</b><br><br>•Лікер Апероль;<br>•Вино ігристе;<br>•Вода газована;</p>
+                  </div>
+                </div>
               </div>
 
             </div>
             <div class="cock">
 
               <div id="cock_bl">
-                <img src="/Image/cocktails/Blue Hawaii.png" alt="">
+                <span onclick="info_f('Bl_ha')" class="comp_d">ⓘ</span>
+                <img onclick="info_f('Bl_ha')" src="/Image/cocktails/Blue Hawaii.png" alt="">
                 <h3>Blue Hawaii</h3>
                 <p>210 мл</p>
                 <h4>130₴</h4>
+                  <!-- The Modal -->
+                  <div id="Bl_ha_Modal" class="modal">
+          
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_Bl_ha">&times;</span>
+                      <h3>Blue Hawaii</h3>
+                      <p><b>Склад:</b><br><br>•Білий ром;<br>•Кокосовий лікер;<br>•Лікер Блю Кюрасао;<br>•Сік;</p>
+                    </div>
+                  </div>
               </div>
           
               <div id="cock_bl">
-                <img src="/Image/cocktails/Jungle Juice.png" alt="">
+                <span onclick="info_f('ju_ju')" class="comp_d">ⓘ</span>
+                <img onclick="info_f('ju_ju')" src="/Image/cocktails/Jungle Juice.png" alt="">
                 <h3>Jungle Juice</h3>
                 <p>240 мл</p>
                 <h4>130₴</h4>
+                  <!-- The Modal -->
+                    <div id="ju_ju_Modal" class="modal">
+            
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close_ju_ju">&times;</span>
+                        <h3>Jungle Juice</h3>
+                        <p><b>Склад:</b><br><br>•Джин;<br>•Банановий лікер;<br>•Сік;</p>
+                      </div>
+                    </div>
                 </div>
 
               </div>
               <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Amsterdam.jpg" alt="">
+                  <span onclick="info_f('Amsterdam')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('Amsterdam')" src="/Image/cocktails/Amsterdam.jpg" alt="">
                   <h3>Amsterdam</h3>
                   <p>200 мл</p>
                   <h4>130₴</h4>
+                   <!-- The Modal -->
+                   <div id="Amsterdam_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_Amsterdam">&times;</span>
+                      <h3>Amsterdam</h3>
+                      <p><b>Склад:</b><br><br>•Вино біле напівсолодке;<br>•Полуничний джин;<br>•Сироп троянди;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/White_russian.jpg" alt="">
+                  <span onclick="info_f('yi_ya')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('yi_ya')" src="/Image/cocktails/White_russian.jpg" alt="">
                   <h3>Yin Yang</h3>
                   <p>90 мл</p>
                   <h4>100₴</h4>
+                   <!-- The Modal -->
+                   <div id="yi_ya_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_yi_ya">&times;</span>
+                      <h3>Yin Yang</h3>
+                      <p><b>Склад:</b><br><br>•Кавовий лікер;<br>•Горілка;<br>•Вершки;</p>
+                    </div>
+                  </div>
                 </div>
 
                 </div>
                 <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Blue Lagoon.jpg" alt="">
+                  <span onclick="info_f('bl_la')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('bl_la')" src="/Image/cocktails/Blue Lagoon.jpg" alt="">
                   <h3>Blue Lagoon </h3>
                   <p>150 мл</p>
                   <h4>110₴</h4>
+                   <!-- The Modal -->
+                   <div id="bl_la_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_bl_la">&times;</span>
+                      <h3>Blue Lagoon</h3>
+                      <p><b>Склад:</b><br><br>•Горілка;<br>•Лікер Блю Кюрасао;<br>•Сік;<br>•Спрайт;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Pina_Colada.jpg" alt="">
+                  <span onclick="info_f('pi_co')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('pi_co')"  src="/Image/cocktails/Pina_Colada.jpg" alt="">
                   <h3>Pina Colada </h3>
                   <p>210 мл</p>
                   <h4>110₴</h4>
+                   <!-- The Modal -->
+                   <div id="pi_co_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_pi_co">&times;</span>
+                      <h3>Pina Colada</h3>
+                      <p><b>Склад:</b><br><br>•Білий ром;<br>•Сік;<br>•Вершки;<br>•Кокосовий сироп;</p>
+                    </div>
+                  </div>
                 </div>
 
                 </div>
                 <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Gin Lemonade.jpg" alt="">
+                  <span onclick="info_f('ti_to')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('ti_to')" src="/Image/cocktails/Gin Lemonade.jpg" alt="">
                   <h3>Tik Tok </h3>
                   <p>270 мл</p>
                   <h4>100₴</h4>
+                   <!-- The Modal -->
+                   <div id="ti_to_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_ti_to">&times;</span>
+                      <h3>Tik Tok</h3>
+                      <p><b>Склад:</b><br><br>•Джин;<br>•Сироп;<br>•Вода газована;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Gin Tonik.jpg" alt="">
+                  <span onclick="info_f('gi_to')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('gi_to')"  src="/Image/cocktails/Gin Tonik.jpg" alt="">
                   <h3>Gin Tonik </h3>
                   <p>200 мл</p>
                   <h4>100₴</h4>
+                   <!-- The Modal -->
+                   <div id="gi_to_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_gi_to">&times;</span>
+                      <h3>Gin Tonik</h3>
+                      <p><b>Склад:</b><br><br>•Джин;<br>•Швепс;</p>
+                    </div>
+                  </div>
                 </div>
 
                 </div>
                 <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/James Bond.jpg" alt="">
+                  <span onclick="info_f('ja_bo')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('ja_bo')" src="/Image/cocktails/James Bond.jpg" alt="">
                   <h3>James Bond </h3>
                   <p>90 мл</p>
                   <h4>90₴</h4>
+                  <!-- The Modal -->
+                  <div id="ja_bo_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_ja_bo">&times;</span>
+                      <h3>James Bond</h3>
+                      <p><b>Склад:</b><br><br>•Горілка;<br>•Вермут;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Long Island.jpg" alt="">
+                  <span onclick="info_f('lo_is')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('lo_is')" src="/Image/cocktails/Long Island.jpg" alt="">
                   <h3>Long Island </h3>
                   <p>250 мл</p>
                   <h4>190₴</h4>
+                  <!-- The Modal -->
+                  <div id="lo_is_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_lo_is">&times;</span>
+                      <h3>Long Island</h3>
+                      <p><b>Склад:</b><br><br>•Горілка;<br>•Білий ром;<br>•Текіла срібна;<br>•Джин;<br>•Апельсиновий лікер;<br>•Кола;</p>
+                    </div>
+                  </div>
                 </div>
 
                 </div>
                 <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Mai Tai.jpg" alt="">
+                  <span onclick="info_f('ma_ta')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('ma_ta')" src="/Image/cocktails/Mai Tai.jpg" alt="">
                   <h3>Mai Tai </h3>
                   <p>200 мл</p>
                   <h4>160₴</h4>
+                  <!-- The Modal -->
+                  <div id="ma_ta_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_ma_ta">&times;</span>
+                      <h3>Mai Tai</h3>
+                      <p><b>Склад:</b><br><br>•Чорний ром;<br>•Золотий ром;<br>•Білий ром;<br>•Мигдалевий лікер;<br>•Апельсиновий лікер;<br>•Сік;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Mojito.jpg" alt="">
+                  <span onclick="info_f('Moj')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('Moj')" src="/Image/cocktails/Mojito.jpg" alt="">
                   <h3>Mojito</h3>
                   <p>300 мл</p>
                   <h4>100₴</h4>
+                  <!-- The Modal -->
+                  <div id="Moj_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_Moj">&times;</span>
+                      <h3>Mojito</h3>
+                      <p><b>Склад:</b><br><br>•Білий ром;<br>•Спрайт;<br>•Сироп;</p>
+                    </div>
+                  </div>
                 </div>
 
                 </div>
                 <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Mojito.jpg" alt="">
+                  <span onclick="info_f('mo_en')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('mo_en')" src="/Image/cocktails/Mojito.jpg" alt="">
                   <h3>Mojito Energy</h3>
                   <p>330 мл</p>
                   <h4>120₴</h4>
+                  <!-- The Modal -->
+                  <div id="mo_en_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_mo_en">&times;</span>
+                      <h3>Mojito Energy</h3>
+                      <p><b>Склад:</b><br><br>•Білий ром;<br>•Енергетик;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Sex on the beach.jpg" alt="">
+                  <span onclick="info_f('se_on')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('se_on')" src="/Image/cocktails/Sex on the beach.jpg" alt="">
                   <h3> Sex on the beach</h3>
                   <p>160 мл</p>
                   <h4>100₴</h4>
+                   <!-- The Modal -->
+                   <div id="se_on_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_se_on">&times;</span>
+                      <h3>Sex on the beach</h3>
+                      <p><b>Склад:</b><br><br>•Горілка ром;<br>•Персиковий лікер;<br>•Сироп;<br>•Сік;</p>
+                    </div>
+                  </div>
                 </div>
 
                 </div>
                 <div class="cock">
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Tequila Sunrise.jpg" alt="">
+                  <span onclick="info_f('te_su')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('te_su')" src="/Image/cocktails/Tequila Sunrise.jpg" alt="">
                   <h3> Tequila Sunrise</h3>
                   <p>200 мл</p>
                   <h4>140₴</h4>
+                   <!-- The Modal -->
+                   <div id="te_su_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_te_su">&times;</span>
+                      <h3>Tequila Sunrise</h3>
+                      <p><b>Склад:</b><br><br>•Текіла срібна;<br>•Сироп;<br>•Сік;</p>
+                    </div>
+                  </div>
                 </div>
 
                 <div id="cock_bl">
-                  <img src="/Image/cocktails/Godfather.jpg" alt="">
+                  <span onclick="info_f('go_fa')" class="comp_d">ⓘ</span>
+                  <img onclick="info_f('go_fa')" src="/Image/cocktails/Godfather.jpg" alt="">
                   <h3>Godfather</h3>
                   <p>90 мл</p>
                   <h4>130₴</h4>
+                   <!-- The Modal -->
+                   <div id="go_fa_Modal" class="modal">
+            
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close_go_fa">&times;</span>
+                      <h3>Godfather</h3>
+                      <p><b>Склад:</b><br><br>•Яблучний бурбон;<br>•Мигдалевий лікер;<br>•Сироп;<br>•Сік;</p>
+                    </div>
+                  </div>
                 </div>
       
               </div>
@@ -1874,6 +2170,7 @@
     <div class="cock">
 
       <div id="cock_bl">
+        <span onclick="info_f('Patriot')" class="comp_d">ⓘ</span>
         <img onclick="info_f('Patriot')" src="/Image/cocktails/Patriot.png" alt="">
         <h3>Patriot</h3>
         <p>60 мл</p>
@@ -1891,6 +2188,7 @@
       </div>
   
       <div id="cock_bl">
+        <span onclick="info_f('Mexican')" class="comp_d">ⓘ</span>
         <img onclick="info_f('Mexican')" src="/Image/cocktails/Green Mexican.png" alt="">
         <h3>Green Mexican</h3>
         <p>60 мл</p>
@@ -1911,6 +2209,7 @@
         <div class="cock">
 
         <div id="cock_bl">
+          <span onclick="info_f('Mentol')" class="comp_d">ⓘ</span>
           <img onclick="info_f('Mentol')" src="/Image/cocktails/Mentol.png" alt="">
           <h3>Mentol</h3>
           <p>60 мл</p>
@@ -1928,6 +2227,7 @@
         </div>
     
         <div id="cock_bl">
+          <span onclick="info_f('B-52')" class="comp_d">ⓘ</span>
           <img onclick="info_f('B-52')" src="/Image/cocktails/B-52.png" alt="">
           <h3>B-52</h3>
           <p>60 мл</p>
@@ -1948,6 +2248,7 @@
         <div class="cock">
 
           <div id="cock_bl">
+            <span onclick="info_f('B-54')" class="comp_d">ⓘ</span>
             <img onclick="info_f('B-54')" src="/Image/cocktails/B-54.png" alt="">
             <h3>B-54</h3>
             <p>60 мл</p>
@@ -1966,6 +2267,7 @@
   
       
           <div id="cock_bl">
+            <span onclick="info_f('Opium')" class="comp_d">ⓘ</span>
             <img onclick="info_f('Opium')" src="/Image/cocktails/Opium.png" alt="">
             <h3>Opium</h3>
             <p>60 мл</p>
@@ -1986,6 +2288,7 @@
           <div class="cock">
 
             <div id="cock_bl">
+              <span onclick="info_f('Hiroshima')" class="comp_d">ⓘ</span>
               <img onclick="info_f('Hiroshima')" src="/Image/cocktails/Hiroshima.jpg" alt="">
               <h3>Hiroshima</h3>
               <p>60 мл</p>
@@ -2031,7 +2334,7 @@
         <h1>SOFT/MEDIUM</h1> 
         <br>
         <p><span>300₴</span></p>
-        <h2>PREMIUM</h2>
+        <h2>TANGIERS</h2>
          <!-- The Modal -->
         <div id="sweet_Modal" class="modal">
           <!-- Modal content -->
