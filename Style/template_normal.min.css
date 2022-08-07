@@ -471,24 +471,24 @@ color:#ffffff;
   border:none;
 
   font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.32px;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.32px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 
-width: auto;
-height: 10vw;
+  width: auto;
+  height: 10vw;
 
-font-size: 3vw;
+  font-size: 3vw;
 }
 
 /* Change background color of buttons on hover */
@@ -651,7 +651,8 @@ color: #999999;
   .bar_img{
     display: block;
     justify-content: center;
-    align-items: center;    padding-top: 3vh;
+    align-items: center;  
+    padding-top: 3vh;
     margin-bottom: 5vw;
     margin-left: 6.98vw;
     margin-right: 5.98vw;
@@ -873,285 +874,284 @@ color: #999999;
         -webkit-background-clip: text;
       }
 
-  @media (min-width: 499px) {
+      @media (min-width: 499px) {
 
-     .top{
-      margin-right: 20%;
-      margin-left: 20%;
-     }
-
-    #button_in{
-    
-    }
-
-    .tabcontent {
-        background-color: #2e2e2e;
-        -moz-border-radius-topleft: 15vw; 
-
-       
-      }
-
-      .tabs__content{
-        width: 95%;
-      }
-  
-     .tabs__nav{
-      margin-left: 10vw;
-     }
-      
-
-     .tabs__btn_active , .tabs__btn{
-      margin-top: 3vh;
-      font-size: 30px;
-     }
-
-     .btn_h{
-      margin-top: 3vh;
-      font-size: 30px;
-     }
-
-     .tabs__pane_show{
-
-      margin-top: 5vw;
-     }
-
-     .tab button.active {
-  
-      width: auto;
-    height: 7vw;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 16px;
-    margin: auto 5;
-    gap: 8px;
-  
-      font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 17px;
-    /* identical to box height */
-  
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.32px;
-  
-  
-     }
-  
-     .tab button {
-  
-      width: auto;
-    height: 7vw;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 16px;
-    margin: auto 5;
-    gap: 8px;
-  
-      font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 17px;
-    /* identical to box height */
-  
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.32px;
-     }
-  
-     .bar_img{
-      margin-right: 0%;
-      margin-left: 0%;
-      margin: 5vw;
-      margin-top: 0px;
+        .top{
+         margin-right: 20%;
+         margin-left: 20%;
         }
-  
-     .bar_img button{
-      margin: 1vw;
-      margin-top: 9.98vw;
-      width: 20.5vw;
-      height: 20.5vw;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: calc(4.9vw - 30%);
-      line-height: 22px;
-      letter-spacing: 0.32px;
-      color: #fff;
-    }
-
-#Tokyo{
-
-}
-
-.cock, #shot_in{
-  width: 100%;    
-
-}
-  
-
-#cock_bl h3{
-  margin-left: 2vw;
-  font-size: 3vw;
-}
-
-#cock_bl p{
-  margin-left: 2vw;
-  font-size: 3vw;
-}
-
-#cock_bl h4{
-  font-size: 3vw;
-  margin-left: 2vw;
-
-}
-
-#cock_bl img{
-
-  width:20vw ;
-  height: 20vw;
-}
-
-#tequila{
-  margin-left: 2vw;
-  transform: translateY(-5.5vw);
-  display: table-cell;
-  vertical-align: middle ;
-  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/tequila.jpg);
-  border-radius: 15px;
-  background-size: 105%;
-  background-position: 45% 16%;
-  border-radius: 10%;
-  line-height: 5vw;
-}
-
-#whiskey{
-  margin-left: 2vw;
-  transform: translateY(-5.5vw);
-  display: table-cell;
-  vertical-align: middle ;
-  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/whiskey.png);
-  border-radius: 15px;
-  background-size: 100%;
-  background-position: 45% 6%;
-  border-radius: 10%;
-  line-height: 5vw;
-}
-
-#sparkling{
-  margin-left: 2vw;
-  transform: translateY(-5.5vw);
-  display: table-cell;
-  vertical-align: middle ;
-  background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/sparkling.png);
-  border-radius: 15px;
-  background-size: 120%;
-  background-position: 45% 16%;
-  border-radius: 10%;
-  line-height: 5vw;
-}
-
-#Tokyo{
-  background-image: url(/Image/pictures/hookah.jpg);
-  background-size: 100%;
-
-
-}
-
-.hook{
-  padding-top: calc( 100%);
-}
-
-
-
- #Tokyo p{
-  margin-left: 40vw;
-  margin-bottom: 0vh;
-  margin-top: 0px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 6vw;
-  line-height: 34px;
-
-  letter-spacing: 0.32px;
-  background: linear-gradient(100.7deg, #C7C7C7 0%, rgba(199, 199, 199, 0) 136.33%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-
-}
-    #Tokyo h1{
-      margin-top: 0px;
-      margin-left: 12vw;
-      margin-bottom: 0px;
-      width: auto;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 6vw;
-      /* identical to box height */
-      letter-spacing: 0.32px;
-      background: linear-gradient(100.7deg, #ffffff 0%, rgb(255, 255, 255, 0) 206.33%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    
-    #Tokyo h2{
-      margin-top: 0px;
-      margin-left: 27vw;
-      width: auto;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 6vw;
-      /* identical to box height */
-      letter-spacing: 0.32px;
-      background: linear-gradient(100.7deg, #FFCA7B 0%, rgb(255, 255, 255, 0) 136.33%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    #Tokyo span{
-      background: linear-gradient(92.55deg, #FFCA7B 0%, rgba(181, 130, 93, 0) 131.81%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-    }
-
-    .comp{
-      float: right;
-      text-align: right;
-      position	: absolute;
-      right: calc(30px + 20%);
-      width: fit-content;
-      color: #ffff;
-      font-weight: 400;
-      font-size: 7vw;
-    }
-
-    .comp_d{
-      margin-top: 6vw;
-      margin-left: 18vw;
-      position	: absolute;
-      width: fit-content;
-      color: #ffff;
-      font-weight: 400;
-      font-size: 3vw;
-    }
-
-    #sec1{
-
-      margin: auto 20%;
-    }
-
-  }
-
+   
+       #button_in{
+       
+       }
+   
+       .tabcontent {
+           background-color: #2e2e2e;
+           -moz-border-radius-topleft: 15vw; 
+   
+          
+         }
+   
+         .tabs__content{
+           width: 95%;
+         }
+     
+        .tabs__nav{
+         margin-left: 10vw;
+        }
+         
+   
+        .tabs__btn_active , .tabs__btn{
+         margin-top: 3vh;
+         font-size: 30px;
+        }
+   
+        .btn_h{
+         margin-top: 3vh;
+         font-size: 30px;
+        }
+   
+        .tabs__pane_show{
+   
+         margin-top: 5vw;
+        }
+   
+        .tab button.active {
+     
+         width: auto;
+       height: 7vw;
+     
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       padding: 12px 16px;
+       margin: auto 5;
+       gap: 8px;
+     
+         font-style: normal;
+       font-weight: 600;
+       font-size: 19px;
+       line-height: 17px;
+       /* identical to box height */
+     
+       display: flex;
+       align-items: center;
+       text-align: center;
+       letter-spacing: 0.32px;
+     
+     
+        }
+     
+        .tab button {
+     
+         width: auto;
+       height: 7vw;
+     
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       padding: 12px 16px;
+       margin: auto 5;
+       gap: 8px;
+     
+         font-style: normal;
+       font-weight: 600;
+       font-size: 19px;
+       line-height: 17px;
+       /* identical to box height */
+     
+       display: flex;
+       align-items: center;
+       text-align: center;
+       letter-spacing: 0.32px;
+        }
+     
+        .bar_img{
+         margin-right: 0%;
+         margin-left: 0%;
+         margin: 5vw;
+         margin-top: 0px;
+           }
+     
+        .bar_img button{
+         margin: 1vw;
+         margin-top: 9.98vw;
+         width: 20.5vw;
+         height: 20.5vw;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: calc(4.9vw - 30%);
+         line-height: 22px;
+         letter-spacing: 0.32px;
+         color: #fff;
+       }
+   
+   #Tokyo{
+   
+   }
+   
+   .cock, #shot_in{
+     width: 100%;    
+   
+   }
+     
+   
+   #cock_bl h3{
+     margin-left: 2vw;
+     font-size: 3vw;
+   }
+   
+   #cock_bl p{
+     margin-left: 2vw;
+     font-size: 3vw;
+   }
+   
+   #cock_bl h4{
+     font-size: 3vw;
+     margin-left: 2vw;
+   
+   }
+   
+   #cock_bl img{
+   
+     width:20vw ;
+     height: 20vw;
+   }
+   
+   #tequila{
+     margin-left: 2vw;
+     transform: translateY(-5.5vw);
+     display: table-cell;
+     vertical-align: middle ;
+     background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/tequila.jpg);
+     border-radius: 15px;
+     background-size: 105%;
+     background-position: 45% 16%;
+     border-radius: 10%;
+     line-height: 5vw;
+   }
+   
+   #whiskey{
+     margin-left: 2vw;
+     transform: translateY(-5.5vw);
+     display: table-cell;
+     vertical-align: middle ;
+     background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/whiskey.png);
+     border-radius: 15px;
+     background-size: 100%;
+     background-position: 45% 6%;
+     border-radius: 10%;
+     line-height: 5vw;
+   }
+   
+   #sparkling{
+     margin-left: 2vw;
+     transform: translateY(-5.5vw);
+     display: table-cell;
+     vertical-align: middle ;
+     background: linear-gradient(358.62deg, rgba(0, 0, 0, 0.8) 1.11%, rgba(0, 0, 0, 0) 98.81%), url(/Image/pictures/sparkling.png);
+     border-radius: 15px;
+     background-size: 120%;
+     background-position: 45% 16%;
+     border-radius: 10%;
+     line-height: 5vw;
+   }
+   
+   #Tokyo{
+     background-image: url(/Image/pictures/hookah.jpg);
+     background-size: 100%;
+   
+   
+   }
+   
+   .hook{
+     padding-top: calc( 100%);
+   }
+   
+   
+   
+    #Tokyo p{
+     margin-left: 40vw;
+     margin-bottom: 0vh;
+     margin-top: 0px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 6vw;
+     line-height: 34px;
+   
+     letter-spacing: 0.32px;
+     background: linear-gradient(100.7deg, #C7C7C7 0%, rgba(199, 199, 199, 0) 136.33%);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+   
+   }
+       #Tokyo h1{
+         margin-top: 0px;
+         margin-left: 12vw;
+         margin-bottom: 0px;
+         width: auto;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 6vw;
+         /* identical to box height */
+         letter-spacing: 0.32px;
+         background: linear-gradient(100.7deg, #ffffff 0%, rgb(255, 255, 255, 0) 206.33%);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       }
+       
+       #Tokyo h2{
+         margin-top: 0px;
+         margin-left: 27vw;
+         width: auto;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 6vw;
+         /* identical to box height */
+         letter-spacing: 0.32px;
+         background: linear-gradient(100.7deg, #FFCA7B 0%, rgb(255, 255, 255, 0) 136.33%);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       }
+   
+       #Tokyo span{
+         background: linear-gradient(92.55deg, #FFCA7B 0%, rgba(181, 130, 93, 0) 131.81%);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+       }
+   
+       .comp{
+         float: right;
+         text-align: right;
+         position	: absolute;
+         right: calc(30px + 20%);
+         width: fit-content;
+         color: #ffff;
+         font-weight: 400;
+         font-size: 7vw;
+       }
+   
+       .comp_d{
+         margin-top: 6vw;
+         margin-left: 18vw;
+         position	: absolute;
+         width: fit-content;
+         color: #ffff;
+         font-weight: 400;
+         font-size: 3vw;
+       }
+   
+       #sec1{
+   
+         margin: auto 20%;
+       }
+   
+     }

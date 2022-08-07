@@ -22,7 +22,10 @@
 
 <body ng-app="app" id="dvideo-body" ng-controller="ComplexController" class="sh-body" ng-style="getBodyStyles()">
 
-<div class="loading-welcome active welcome-screen" style="background-color: #000000">
+<div class="heart">
+  <div class="brain">
+
+  <div class="loading-welcome active welcome-screen" style="background-color: #000000">
     <div class="helper"></div>
     <img id="welcomeImg" imageonload ng-src="{{view.welcome_screen || 'https://s3.eu-central-1.amazonaws.com/qrcgappcdn/gallery-solution/welcome.png'}}"
          ng-style="{
@@ -104,7 +107,7 @@
                             <p>250 г.</p>
                           </div>
                           <div class="price_f">
-                            <p >90₴</p>
+                            <p >100₴</p>
                           </div>
                         </div>
                         <!-- The Modal -->
@@ -218,7 +221,7 @@
 
                       <div class="block_f">
                         <span onclick="info_f('gr_s')" class="comp">ⓘ</span>
-                        <img  onclick="info_f('gr_s')" src="/Image/dishes/Салат «Грецький».jpg" alt="">
+                        <img  onclick="info_f('gr_s')" src="/Image/dishes/Салат «Грецький».png" alt="">
                         <div class="block_in">
                           <div class="name_f">
                             <h3 >Салат «Грецький»</h3>
@@ -249,7 +252,7 @@
                             <p>300 г.</p>
                           </div>
                           <div class="price_f">
-                            <p >130₴</p>
+                            <p >140₴</p>
                           </div>
                         </div>
                          <!-- The Modal -->
@@ -417,7 +420,7 @@
                             <p>200 г. (6 шт)</p>
                           </div>
                           <div class="price_f">
-                            <p >90₴</p>
+                            <p >100₴</p>
                           </div>
                         </div>
                         <!-- The Modal -->
@@ -466,7 +469,7 @@
                             <p>150/50 г.</p>
                           </div>
                           <div class="price_f">
-                            <p >50₴</p>
+                            <p >60₴</p>
                           </div>
                         </div>
                           <!-- The Modal -->
@@ -490,7 +493,7 @@
                             <p>150/50 г.</p>
                           </div>
                           <div class="price_f">
-                            <p >50₴</p>
+                            <p >60₴</p>
                           </div>
                         </div>
                         <!-- The Modal -->
@@ -562,7 +565,7 @@
                             <p>300 г.</p>
                           </div>
                           <div class="price_f">
-                            <p >120₴</p>
+                            <p >130₴</p>
                           </div>
                         </div>
                         <!-- The Modal -->
@@ -586,7 +589,7 @@
                             <p>300 г.</p>
                           </div>
                           <div class="price_f">
-                            <p >120₴</p>
+                            <p >130₴</p>
                           </div>
                         </div>
                          <!-- The Modal -->
@@ -606,7 +609,7 @@
                         <img onclick="info_f('toast')" src="/Image/dishes/Тост з подвійним сиром і ковбаскою.jpg" alt="">
                         <div class="block_in">
                           <div class="name_f">
-                            <h3 >Тост з подвійним сиром і ковбаскою</h3>
+                            <h3 >Тост з сиром і ковбаскою</h3>
                             <p>250 г.</p>
                           </div>
                           <div class="price_f">
@@ -619,7 +622,7 @@
                           <!-- Modal content -->
                           <div class="modal-content">
                             <span class="close_toast">&times;</span>
-                            <h3>Тост з подвійним сиром і ковбаскою</h3>
+                            <h3>Тост з сиром і ковбаскою</h3>
                             <p><b>Склад:</b><br><br>•Сир;<br>•Ковбаса;<br>•Руккола;<br>•Помідор чері;</p>
                           </div>
                         </div>
@@ -2516,6 +2519,10 @@
 
   
   <button onclick="return up()" id="myBtn" title="Go to top">☝🏼</button>
+
+</div>
+</div>
+
   
 <script type="text/javascript" src="/Script/jquery.min.js"></script>
 <script type="text/javascript" src="/Script/angular.rendering.min.js"></script>
