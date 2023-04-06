@@ -3618,63 +3618,91 @@
         <div  class="tabs__pane">
 
           <section>
-
+    
             <div class="block_d">
               <div class="block_in">
                 <div class="name_d">
-                  <h3 >Сет Самурай</h3>
+                  <h3 ><span onclick="info_f('set_sam')" >Сет Самурай ⓘ</span></h3>
                   <p>32 шт.</p>
                 </div>
                 <div class="price_d">
                   <p >480₴</p>
                 </div>
               </div>
+
+              <div id="set_sam_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_sam">&times;</span>
+                  <h3>Сет Самурай</h3>
+                  <p><b>Склад:</b><br><br>•Рол Філадельфія Класична;<br>•Рол Фреш з Вугрем;<br>•Рол Каліфорнія з Крабом в Ікрі;<br>•Рол Філадельфія в Кунжуті;</p>
+                </div>
+              </div>
             </div>
 
             <div class="block_d">
               <div class="block_in">
                 <div class="name_d">
-                  <h3 >Сет Дракон</h3>
+                  <h3 ><span onclick="info_f('set_dra')" >Сет Дракон ⓘ</span></h3>
                   <p>38 шт.</p>
                 </div>
                 <div class="price_d">
                   <p >560₴</p>
                 </div>
               </div>
+
+              <div id="set_dra_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_dra">&times;</span>
+                  <h3>Сет Дракон</h3>
+                  <p><b>Склад:</b><br><br>•Рол Дракон з Креветкою;<br>•Рол Каліфорнія з Лососем в Ікрі;<br>•Рол Вулкан;<br>•Рол Футомак Спайсі;<br>•Рол Запечений з Куркою;</p>
+                </div>
+              </div>
             </div>
 
             <div class="block_d">
               <div class="block_in">
                 <div class="name_d">
-                  <h3 >Сет Кійото</h3>
+                  <h3 ><span onclick="info_f('set_kiy')" >Сет Кіото ⓘ</span></h3>
                   <p>24 шт.</p>
                 </div>
                 <div class="price_d">
                   <p >380₴</p>
                 </div>
               </div>
+
+              <div id="set_kiy_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_kiy">&times;</span>
+                  <h3>Сет Кіото</h3>
+                  <p><b>Склад:</b><br><br>•Рол Філадельфія Класична;<br>•Рол Філадельфія в Ікрі;<br>•Рол Футомак з Креветкою;</p>
+                </div>
+              </div>
             </div>
 
             <div class="block_d">
               <div class="block_in">
                 <div class="name_d">
-                  <h3 >Сет Теплий</h3>
+                  <h3 ><span onclick="info_f('set_tep')" >Сет Теплий ⓘ</span></h3>
                   <p>32 шт.</p>
                 </div>
                 <div class="price_d">
                   <p >440₴</p>
                 </div>
               </div>
-            </div>
 
-            <div class="block_d">
-              <div class="block_in">
-                <div class="name_d">
-                  <h3 >Сет Катана</h3>
-                  <p>32 шт.</p>
-                </div>
-                <div class="price_d">
-                  <p >460₴</p>
+              <div id="set_tep_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_tep">&times;</span>
+                  <h3>Сет Теплий</h3>
+                  <p><b>Склад:</b><br><br>•Рол Запечений з Куркою;<br>•Рол Запечений з Креветкою;<br>•Рол Каліфорнія Темпура;<br>•Рол Темпура з Лососем;</p>
                 </div>
               </div>
             </div>
@@ -3682,11 +3710,43 @@
             <div class="block_d">
               <div class="block_in">
                 <div class="name_d">
-                  <h3 >Сет Сакура</h3>
+                  <h3 ><span onclick="info_f('set_kat')" >Сет Катана ⓘ</span></h3>
+                  <p>32 шт.</p>
+                </div>
+                <div class="price_d">
+                  <p >460₴</p>
+                </div>
+              </div>
+
+              <div id="set_kat_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_kat">&times;</span>
+                  <h3>Сет Катана</h3>
+                  <p><b>Склад:</b><br><br>•Рол Фреш з Вугрем;<br>•Рол Філадельфія Класична;<br>•Рол Ніжність;<br>•Рол Запечений з Креветкою;</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="block_d">
+              <div class="block_in">
+                <div class="name_d">
+                  <h3 ><span onclick="info_f('set_sak')" >Сет Сакура ⓘ</span></h3>
                   <p>32 шт.</p>
                 </div>
                 <div class="price_d">
                   <p >450₴</p>
+                </div>
+              </div>
+
+              <div id="set_sak_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_sak">&times;</span>
+                  <h3>Сет Сакура</h3>
+                  <p><b>Склад:</b><br><br>•Рол Чікен Чіз;<br>•Рол Філадельфія Класична;<br>•Рол Сакура;<br>•Рол Каліфорнія з Краб в Ікрі;</p>
                 </div>
               </div>
             </div>
