@@ -52,9 +52,9 @@
 <div class="nav-scroller">
   <div class="tab nav-scroller__items dragscroll">
   <button class="tablinks nav-scroller__item" onclick="openCity(event, 'London')" id="defaultOpen" onmousedown="viewDiv_all()">Основне меню</button>
+  <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Japan')" onmousedown="viewDiv_all()">Роли</button>
   <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Paris')">Алкогольна карта</button>
   <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Tokyo')" onmousedown="viewDiv_all()">Кальяни</button>
-  <button class="tablinks nav-scroller__item" onclick="openCity(event, 'Japan')" onmousedown="viewDiv_all()">Суші</button>
   </div>
 
   <!-- Tab content -->
@@ -3783,14 +3783,62 @@
         <div  class="tabs__pane">
 
           <section class="block_b" >
+
+            <div class="block_f">
+              <span onclick="info_f('set_kiy')" class="comp">ⓘ</span>
+              <img onclick="info_f('set_kiy')" src="/Image/sushi/Сет Кіото.png" alt="">
+              <div class="block_in">
+                <div class="name_f">
+                  <h3 >Кіото</h3>
+                  <p>24 шт./610г.</p>
+                </div>
+                <div class="price_f">
+                  <p >380₴</p>
+                </div>
+              </div>
+               <!-- The Modal -->
+               <div id="set_kiy_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_kiy">&times;</span>
+                  <h3>Сет Кіото</h3>
+                  <p><b>Склад:</b><br><br>•Філадельфія Класична;<br>•Філадельфія в Ікрі;<br>•Футомак з Креветкою;</p>
+                </div>
+              </div>
+            </div>
     
+            <div class="block_f">
+              <span onclick="info_f('set_sak')" class="comp">ⓘ</span>
+              <img onclick="info_f('set_sak')" src="/Image/sushi/Сет Сакура.png" alt="">
+              <div class="block_in">
+                <div class="name_f">
+                  <h3 >Сакура</h3>
+                  <p>32 шт./830г.</p>
+                </div>
+                <div class="price_f">
+                  <p >450₴</p>
+                </div>
+              </div>
+               <!-- The Modal -->
+               <div id="set_sak_Modal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_set_sak">&times;</span>
+                  <h3>Сет Сакура</h3>
+                  <p><b>Склад:</b><br><br>•Чікен Чіз;<br>•Філадельфія Класична;<br>•Сакура;<br>•Каліфорнія з Краб в Ікрі;</p>
+                </div>
+              </div>
+            </div>
+
             <div class="block_f">
               <span onclick="info_f('set_sam')" class="comp">ⓘ</span>
               <img onclick="info_f('set_sam')" src="/Image/sushi/Сет Самурай.png" alt="">
               <div class="block_in">
                 <div class="name_f">
                   <h3 >Самурай</h3>
-                  <p>32 шт.</p>
+                  <p>32 шт./870г.</p>
                 </div>
                 <div class="price_f">
                   <p >480₴</p>
@@ -3809,60 +3857,37 @@
             </div>
 
             <div class="block_f">
-              <span onclick="info_f('set_dra')" class="comp">ⓘ</span>
-              <img onclick="info_f('set_dra')" src="/Image/sushi/Сет дракон.png" alt="">
+              <span onclick="info_f('set_kat')" class="comp">ⓘ</span>
+              <img onclick="info_f('set_kat')" src="/Image/sushi/Сет Катана.png" alt="">
               <div class="block_in">
                 <div class="name_f">
-                  <h3 >Дракон</h3>
-                  <p>38 шт.</p>
+                  <h3 >Катана</h3>
+                  <p>32 шт./970г.</p>
                 </div>
                 <div class="price_f">
-                  <p >560₴</p>
+                  <p >480₴</p>
                 </div>
               </div>
                <!-- The Modal -->
-               <div id="set_dra_Modal" class="modal">
+               <div id="set_kat_Modal" class="modal">
 
                 <!-- Modal content -->
                 <div class="modal-content">
-                  <span class="close_set_dra">&times;</span>
-                  <h3>Сет Дракон</h3>
-                  <p><b>Склад:</b><br><br>•Золотий Дракон;<br>•Каліфорнія з Лососем в Ікрі;<br>•Вулкан;<br>•Футомак Спайсі;<br>•Запечений з Куркою;</p>
+                  <span class="close_set_kat">&times;</span>
+                  <h3>Сет Катана</h3>
+                  <p><b>Склад:</b><br><br>•Фреш з Вугрем;<br>•Філадельфія Класична;<br>•Зелений Дракон;<br>•Запечений з Креветкою;</p>
                 </div>
               </div>
             </div>
 
-            <div class="block_f">
-              <span onclick="info_f('set_kiy')" class="comp">ⓘ</span>
-              <img onclick="info_f('set_kiy')" src="/Image/sushi/Сет Кіото.png" alt="">
-              <div class="block_in">
-                <div class="name_f">
-                  <h3 >Кіото</h3>
-                  <p>24 шт.</p>
-                </div>
-                <div class="price_f">
-                  <p >380₴</p>
-                </div>
-              </div>
-               <!-- The Modal -->
-               <div id="set_kiy_Modal" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close_set_kiy">&times;</span>
-                  <h3>Сет Кіото</h3>
-                  <p><b>Склад:</b><br><br>•Філадельфія Класична;<br>•Філадельфія в Ікрі;<br>•Футомак з Креветкою;</p>
-                </div>
-              </div>
-            </div>
-
+            
             <div class="block_f">
               <span onclick="info_f('set_tep')" class="comp">ⓘ</span>
               <img onclick="info_f('set_tep')" src="/Image/sushi/Теплий сет.png" alt="">
               <div class="block_in">
                 <div class="name_f">
                   <h3 >Теплий</h3>
-                  <p>32 шт.</p>
+                  <p>32 шт./1020г.</p>
                 </div>
                 <div class="price_f">
                   <p >440₴</p>
@@ -3881,56 +3906,30 @@
             </div>
 
             <div class="block_f">
-              <span onclick="info_f('set_kat')" class="comp">ⓘ</span>
-              <img onclick="info_f('set_kat')" src="/Image/sushi/Сет Катана.png" alt="">
+              <span onclick="info_f('set_dra')" class="comp">ⓘ</span>
+              <img onclick="info_f('set_dra')" src="/Image/sushi/Сет дракон.png" alt="">
               <div class="block_in">
                 <div class="name_f">
-                  <h3 >Катана</h3>
-                  <p>32 шт.</p>
+                  <h3 >Дракон</h3>
+                  <p>38 шт./1140г.</p>
                 </div>
                 <div class="price_f">
-                  <p >480₴</p>
+                  <p >560₴</p>
                 </div>
               </div>
                <!-- The Modal -->
-               <div id="set_kat_Modal" class="modal">
+               <div id="set_dra_Modal" class="modal">
 
                 <!-- Modal content -->
                 <div class="modal-content">
-                  <span class="close_set_kat">&times;</span>
-                  <h3>Сет Катана</h3>
-                  <p><b>Склад:</b><br><br>•Фреш з Вугрем;<br>•Філадельфія Класична;<br>•Зелений Дракон;<br>•Запечений з Креветкою;</p>
+                  <span class="close_set_dra">&times;</span>
+                  <h3>Сет Дракон</h3>
+                  <p><b>Склад:</b><br><br>•Золотий Дракон;<br>•Каліфорнія з Лососем в Ікрі;<br>•Вулкан;<br>•Футомак Спайсі;<br>•Запечений з Куркою;</p>
                 </div>
               </div>
             </div>
 
-            <div class="block_f">
-              <span onclick="info_f('set_sak')" class="comp">ⓘ</span>
-              <img onclick="info_f('set_sak')" src="/Image/sushi/Сет Сакура.png" alt="">
-              <div class="block_in">
-                <div class="name_f">
-                  <h3 >Сакура</h3>
-                  <p>32 шт.</p>
-                </div>
-                <div class="price_f">
-                  <p >450₴</p>
-                </div>
-              </div>
-               <!-- The Modal -->
-               <div id="set_sak_Modal" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close_set_sak">&times;</span>
-                  <h3>Сет Сакура</h3>
-                  <p><b>Склад:</b><br><br>•Чікен Чіз;<br>•Філадельфія Класична;<br>•Сакура;<br>•Каліфорнія з Краб в Ікрі;</p>
-                </div>
-              </div>
-            </div>
-              
-
-             
-
+            
           </section>
 
         </div>
