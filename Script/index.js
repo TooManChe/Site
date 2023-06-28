@@ -14,9 +14,33 @@ function viewDiv_all(){
     document.getElementById("sparkling_in").style.display = "none";
     document.getElementById("cocktails_in").style.display = "none";
     document.getElementById("shot_in").style.display = "none";
+    document.getElementById("finlandia_in").style.display = "none";
+    document.getElementById("jack_in").style.display = "none";
   }
 
 }
+
+function viewDiv_jack(){
+  if ( document.getElementById("jack_in").style.display=="block") {
+    document.getElementById("jack_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("jack_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
+
+function viewDiv_finlandia(){
+  if ( document.getElementById("finlandia_in").style.display=="block") {
+    document.getElementById("finlandia_in").style.display = "none";
+    document.getElementById("in").style.display = "block";
+   
+  }else{
+    document.getElementById("finlandia_in").style.display = "block";
+    document.getElementById("in").style.display = "none";
+  }
+};
 
 function viewDiv_beer(){
   if ( document.getElementById("beer_in").style.display=="block") {

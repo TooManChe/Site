@@ -1895,9 +1895,9 @@
 
     <div id="in"  class="bar_img">
       <div class="bar_bl" >
-        <button id="beer" type="button" value="Click" onmousedown="viewDiv_beer()">Пиво</button>
-        <button id="gin" type="button" value="Click" onmousedown="viewDiv_gin()">Джин</button>
-        <button id="liqueur" type="button" value="Click" onmousedown="viewDiv_liqueur()">Лікер</button>
+        <button id="beer" type="button" value="Click" onmousedown="viewDiv_beer(), up()">Пиво</button>
+        <button id="gin" type="button" value="Click" onmousedown="viewDiv_gin(), up()">Джин</button>
+        <button id="liqueur" type="button" value="Click" onmousedown="viewDiv_liqueur(), up()">Лікер</button>
         <button id="tequila" type="button" value="Click" onmousedown="viewDiv_tequila(), up()">Текіла <br> Вермут</button>
         <button id="rum" type="button" value="Click" onmousedown="viewDiv_rum(), up()">Ром</button>
         <button id="whiskey" type="button" value="Click" onmousedown="viewDiv_whiskey(), up()">Віскі <br>Бурбон</button>
@@ -1907,12 +1907,526 @@
         <button id="sparkling" type="button" value="Click" onmousedown="viewDiv_sparkling(), up()">Вино <br>Ігристе</button>
         <button id="cocktails" type="button" value="Click" onmousedown="viewDiv_cocktails(), up()">Коктейлі</button>
         <button id="shot" type="button" value="Click" onmousedown="viewDiv_shot(), up()">Шоти</button>
+        <button id="finlandia" type="button" value="Click" onmousedown="viewDiv_finlandia(), up()">Коктейлі на основі Finlandia Botanicls</button>
+        <button id="jack" type="button" value="Click" onmousedown="viewDiv_jack(), up()">Коктейлі на основі Jack Daniel’s Tennessee Apple</button>
       </div>
 
       
     </div>
 
     <div id="button_in"> 
+
+      <div id="finlandia_in" class="tabs__pane">
+
+        <div style="display: flex; width: 100%;">
+          <h1>Коктейлі на основі Finlandia Botanicls</h1>
+          <button  type="button" value="Click" onmousedown="viewDiv_finlandia()">←Повернутися</button>
+        </div>
+          
+        <div class="cock">
+
+          <div id="cock_bl">
+            <span onclick="info_f('Str_ros')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Str_ros')" src="/Image/bar/finlandia/Str_ros.webp" alt="">
+            <h3>Strawberry Rose </h3>
+            <p>220 мл</p>
+            <h4>150₴</h4>
+             <!-- The Modal -->
+             <div id="Str_ros_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_Str_ros">&times;</span>
+                <h3>Strawberry Rose </h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сироп полуниця;<br>•Sprite;<br>•Сік лимона;</p> 
+              </div>
+            </div>
+          </div>
+
+          <div id="cock_bl">
+            <span onclick="info_f('wild')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('wild')" src="/Image/bar/finlandia/wild.webp" alt="">
+            <h3>Wildberry </h3>
+            <p>220 мл</p>
+            <h4>150₴</h4>
+             <!-- The Modal -->
+             <div id="wild_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_wild">&times;</span>
+                <h3>Wildberry </h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сироп ожина;<br>•Sprite;<br>•Сік лимона;</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cock">
+
+          <div id="cock_bl">
+            <span onclick="info_f('ros_ton')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('ros_ton')" src="/Image/bar/finlandia/ros_ton.webp" alt="">
+            <h3>Rose Tonic</h3>
+            <p>200 мл</p>
+            <h4>140₴</h4>
+             <!-- The Modal -->
+             <div id="ros_ton_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_ros_ton">&times;</span>
+                <h3>Rose Tonic</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сироп троянда;<br>•Tonic;<br>•Сік лимона;</p> 
+              </div>
+            </div>
+          </div>
+
+          <div id="cock_bl">
+            <span onclick="info_f('ros_wat')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('ros_wat')" src="/Image/bar/finlandia/ros_wat.webp" alt="">
+            <h3>Rose Water </h3>
+            <p>100 мл</p>
+            <h4>110₴</h4>
+             <!-- The Modal -->
+             <div id="ros_wat_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_ros_wat">&times;</span>
+                <h3>Rose Water </h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Triple Sec;<br>•Сік Журавлини;</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cock">
+
+          <div id="cock_bl">
+            <span onclick="info_f('bl_co1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('bl_co1')" src="/Image/bar/finlandia/bl_co1.webp" alt="">
+            <h3>Rose Sour</h3>
+            <p>100 мл</p>
+            <h4>100₴</h4>
+             <!-- The Modal -->
+             <div id="bl_co1_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_bl_co1">&times;</span>
+                <h3>Rose Sour</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сироп журавлина;<br>•Сік лимона;</p> 
+              </div>
+            </div>
+          </div>
+
+          <div id="cock_bl">
+            <span onclick="info_f('Mojito1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Mojito1')" src="/Image/bar/finlandia/Mojito1.webp" alt="">
+            <h3>Fresh Mojito</h3>
+            <p>300 мл</p>
+            <h4>140₴</h4>
+             <!-- The Modal -->
+             <div id="Mojito1_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_Mojito1">&times;</span>
+                <h3>Fresh Mojito</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Cucumber & Mint;<br>•Sprite;<br>•Лайм;<br>•М'ята;</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cock">
+
+          <div id="cock_bl">
+            <span onclick="info_f('instagram1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('instagram1')" src="/Image/bar/finlandia/instagram1.webp" alt="">
+            <h3>Bonita Rose</h3>
+            <p>220 мл</p>
+            <h4>150₴</h4>
+             <!-- The Modal -->
+             <div id="instagram1_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_instagram1">&times;</span>
+                <h3>Bonita Rose</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сік ананасовий;<br>•Sprite;<br>•Сироп гренадин;</p> 
+              </div>
+            </div>
+          </div>
+
+          <div id="cock_bl">
+            <span onclick="info_f('sex1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('sex1')" src="/Image/bar/finlandia/sex1.webp" alt="">
+            <h3>Dolly Rose</h3>
+            <p>250 мл</p>
+            <h4>160₴</h4>
+             <!-- The Modal -->
+             <div id="sex1_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_sex1">&times;</span>
+                <h3>Dolly Rose</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Лікер персиковий;<br>•Сік персиковий;<br>•Сік апельсиновий;<br>•Сік гренадин;</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cock">
+
+          <div id="cock_bl">
+            <span onclick="info_f('bad1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('bad1')" src="/Image/bar/finlandia/bad1.webp" alt="">
+            <h3>Menthol Sour</h3>
+            <p>100 мл</p>
+            <h4>110₴</h4>
+             <!-- The Modal -->
+             <div id="bad1_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_bad1">&times;</span>
+                <h3>Menthol Sour</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Cucumber & Mint;<br>•Цукровий сироп;<br>•Сік лимона;</p> 
+              </div>
+            </div>
+          </div>
+
+          <div id="cock_bl">
+            <span onclick="info_f('Ros_sunsex1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Ros_sun')" src="/Image/bar/finlandia/Ros_sun.webp" alt="">
+            <h3>Rose Sunrise</h3>
+            <p>200 мл</p>
+            <h4>130₴</h4>
+             <!-- The Modal -->
+             <div id="Ros_sun_Modal" class="modal">
+     
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_Ros_sun">&times;</span>
+                <h3>Rose Sunrise</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сік апельсиновий;<br>•Сік гренадин;</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cock">
+          <div id="cock_bl">
+            <span onclick="info_f('mi_sp1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('mi_sp1')" src="/Image/bar/finlandia/mi_sp1.webp" alt="">
+            <h3>Mint spritz</h3>
+            <p>285 мл</p>
+            <h4>120₴</h4>
+             <!-- The Modal -->
+             <div id="mi_sp1_Modal" class="modal">
+      
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_mi_sp1">&times;</span>
+                <h3>Mint spritz</h3>
+                <p><b>Склад:</b><br><br>•Спрайт;<br>•Сік лимона;<br>•М'ята;<br>•Огірок;<br>•Finlandia Botanical Cucumber & Mint;</p>
+              </div>
+            </div>
+          </div>
+          
+            <div id="cock_bl">
+              <span onclick="info_f('ro_sp1')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('ro_sp1')" src="/Image/bar/finlandia/ro_sp1.webp" alt="">
+              <h3>Rosé spritz</h3>
+              <p>285 мл</p>
+              <h4>120₴</h4>
+               <!-- The Modal -->
+               <div id="ro_sp1_Modal" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_ro_sp1">&times;</span>
+                  <h3>Rosé spritz</h3>
+                  <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Спрайт;<br>•Сік лимона;<br>•Журавлина;</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="cock">
+          <div id="cock_bl">
+            <span onclick="info_f('blu_haw1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('blu_haw1')" src="/Image/bar/finlandia/blu_haw1.webp" alt="">
+            <h3>Blue Bay</h3>
+            <p>220 мл</p>
+            <h4>160₴</h4>
+             <!-- The Modal -->
+             <div id="blu_haw1_Modal" class="modal">
+      
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_blu_haw1">&times;</span>
+                <h3>Blue Bay</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Лікеи Blue Curacao;<br>•Сироп Маракуя;<br>•Ананасовий сік;</p>
+              </div>
+            </div>
+          </div>
+          
+            <div id="cock_bl">
+              <span onclick="info_f('br_se1')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('br_se1')" src="/Image/bar/finlandia/br_se1.webp" alt="">
+              <h3>Rose Breeze</h3>
+              <p>200 мл</p>
+              <h4>120₴</h4>
+               <!-- The Modal -->
+               <div id="br_se1_Modal" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_br_se1">&times;</span>
+                  <h3>Rose Breeze</h3>
+                  <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сік журавлина;<br>•Сік Грейпфрут;</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="cock">
+          <div id="cock_bl">
+            <span onclick="info_f('po_ti1')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('po_ti1')" src="/Image/bar/finlandia/po_ti1.webp" alt="">
+            <h3>Rose Tini</h3>
+            <p>100 мл</p>
+            <h4>120₴</h4>
+             <!-- The Modal -->
+             <div id="po_ti1_Modal" class="modal">
+      
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_po_ti1">&times;</span>
+                <h3>Rose Tini</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Сироп кавун;<br>•Сік лимона;</p>
+              </div>
+            </div>
+          </div>
+          
+            <div id="cock_bl">
+              <span onclick="info_f('roy_le1')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('roy_le1')" src="/Image/bar/finlandia/roy_le1.webp" alt="">
+              <h3>Night Rose</h3>
+              <p>200 мл</p>
+              <h4>150₴</h4>
+               <!-- The Modal -->
+               <div id="roy_le1_Modal" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_roy_le1">&times;</span>
+                  <h3>Night Rose</h3>
+                  <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Джин рожевий;<br>•Лікер Персиковий;<br>•Sprite;<br>•Сироп малини;</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="cock">
+          <div id="cock_bl">
+            <span onclick="info_f('Ros_jor')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('Ros_jor')" src="/Image/bar/finlandia/Ros_jor.webp" alt="">
+            <h3>Rose Journey</h3>
+            <p>200 мл</p>
+            <h4>130₴</h4>
+             <!-- The Modal -->
+             <div id="Ros_jor_Modal" class="modal">
+      
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_Ros_jor">&times;</span>
+                <h3>Rose Journey</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Малиновий сироп;<br>•Сік лимона;<br>•Содова;<br>•Лайм;<br>•Яблуко;</p>
+              </div>
+            </div>
+          </div>
+          
+            <div id="cock_bl">
+              <span onclick="info_f('pom_vod')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('pom_vod')" src="/Image/bar/finlandia/pom_vod.webp" alt="">
+              <h3>Pomegranate Vodka</h3>
+              <p>200 мл</p>
+              <h4>150₴</h4>
+               <!-- The Modal -->
+               <div id="pom_vod_Modal" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_pom_vod">&times;</span>
+                  <h3>Pomegranate Vodka</h3>
+                  <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Гранатовий сік;</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="cock">
+          <div id="cock_bl">
+            <span onclick="info_f('ros_bou')" class="comp_d">ⓘ</span>
+            <img onclick="info_f('ros_bou')" src="/Image/bar/finlandia/ros_bou.webp" alt="">
+            <h3>Pink Bounty</h3>
+            <p>150 мл</p>
+            <h4>120₴</h4>
+             <!-- The Modal -->
+             <div id="ros_bou_Modal" class="modal">
+      
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close_ros_bou">&times;</span>
+                <h3>Pink Bounty</h3>
+                <p><b>Склад:</b><br><br>•Finlandia Botanical Wildberry & Rose;<br>•Triple sec;<br>•Сироп ванілі;<br>•Сироп кокоса;<br>•Сироп гренадин;<br>•Вершки;</p>
+              </div>
+            </div>
+          </div>
+          
+            <div id="cock_bl">
+              <span onclick="info_f('js_new')" class="comp_d">ⓘ</span>
+              <img onclick="info_f('js_new')" src="/Image/bar/finlandia/js_new.webp" alt="">
+              <h3>Just New</h3>
+              <p>200 мл</p>
+              <h4>120₴</h4>
+               <!-- The Modal -->
+               <div id="js_new_Modal" class="modal">
+        
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close_js_new">&times;</span>
+                  <h3>Just New</h3>
+                  <p><b>Склад:</b><br><br>•Finlandia Botanical Cucumber & Mint;<br>•Цукровий сироп;<br>•Лайм;<br>•М'ята;<br>•Содова;</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+</div>
+
+
+<div id="jack_in" class="tabs__pane">
+
+  <div style="display: flex; width: 100%;">
+    <h1>Коктейлі на основі Jack Daniel’s Tennessee Apple</h1>
+    <button  type="button" value="Click" onmousedown="viewDiv_jack()">←Повернутися</button>
+  </div>
+    
+  <div class="cock">
+
+    <div id="cock_bl">
+      <span onclick="info_f('ap_ja')" class="comp_d">ⓘ</span>
+      <img onclick="info_f('ap_ja')" src="/Image/bar/jack/ap_ja.webp" alt="">
+      <h3>Apple Jack </h3>
+      <p>150 мл</p>
+      <h4>140₴</h4>
+       <!-- The Modal -->
+       <div id="ap_ja_Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close_ap_ja">&times;</span>
+          <h3>Apple Jack</h3>
+          <p><b>Склад:</b><br><br>•Jack Daniel's, Tennessee Apple;<br>•Сік яблука;</p> 
+        </div>
+      </div>
+    </div>
+
+    <div id="cock_bl">
+      <span onclick="info_f('wh_so2')" class="comp_d">ⓘ</span>
+      <img onclick="info_f('wh_so2')" src="/Image/bar/jack/wh_so2.webp" alt="">
+      <h3>Apple Sour</h3>
+      <p>150 мл</p>
+      <h4>140₴</h4>
+       <!-- The Modal -->
+       <div id="wh_so2_Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close_wh_so2">&times;</span>
+          <h3>Apple Sour</h3>
+          <p><b>Склад:</b><br><br>•Jack Daniel's, Tennessee Apple;<br>•Сік лимона;<br>•Цукор ;<br>•Magic Velvet ;<br>•М'ята ;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cock">
+
+    <div id="cock_bl">
+      <span onclick="info_f('jac&')" class="comp_d">ⓘ</span>
+      <img onclick="info_f('jac&')" src="/Image/bar/jack/jac&.webp" alt="">
+      <h3>Jack & Cola </h3>
+      <p>200 мл</p>
+      <h4>120₴</h4>
+       <!-- The Modal -->
+       <div id="jac_Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close_jac">&times;</span>
+          <h3>Jack & Cola </h3>
+          <p><b>Склад:</b><br><br>•Jack Daniel's, Tennessee Apple;<br>•CocaCola;</p> 
+        </div>
+      </div>
+    </div>
+
+    <div id="cock_bl">
+      <span onclick="info_f('God7')" class="comp_d">ⓘ</span>
+      <img onclick="info_f('God7')" src="/Image/bar/jack/God7.webp" alt="">
+      <h3>Godfather #7</h3>
+      <p>150 мл</p>
+      <h4>140₴</h4>
+       <!-- The Modal -->
+       <div id="God7_Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close_God7">&times;</span>
+          <h3>Godfather #7</h3>
+          <p><b>Склад:</b><br><br>•Jack Daniel's, Tennessee Apple;<br>•Мигдалевий лікер;<br>•Сироп;<br>•Сік;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cock">
+
+    <div id="cock_bl">
+      <span onclick="info_f('ja_bl')" class="comp_d">ⓘ</span>
+      <img onclick="info_f('ja_bl')" src="/Image/bar/jack/ja_bl.webp" alt="">
+      <h3>Jack in Black </h3>
+      <p>200 мл</p>
+      <h4>120₴</h4>
+       <!-- The Modal -->
+       <div id="ja_bl_Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close_ja_bl">&times;</span>
+          <h3>Jack in Black </h3>
+          <p><b>Склад:</b><br><br>•Jack Daniel's, Tennessee Apple;<br>•CocaCola;<br>•Лікер кавовий;</p> 
+        </div>
+      </div>
+    </div>
+
+   
+  </div>
+
+  
+
+</div>
 
       <div id="beer_in" class="tabs__pane">
 
