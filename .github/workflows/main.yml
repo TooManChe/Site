@@ -16,8 +16,6 @@ jobs:
     - name: Test 
       uses: actions/checkout@v4
     - name: Test 
-      uses: actions/checkout@v4.2.0
-    - name: Test 
       uses: actions/checkout@main\
   
     - name: Sync files
